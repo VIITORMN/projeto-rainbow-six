@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+}
+
+.barra-principal{
+    padding: 30px;
+    background-color: rgb(63, 63, 63);
+    border: none;
+}
+
+.barra-principal spam{
+    position: absolute;
+    top: 5px;
+    left: 1595px;
+    color: white;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 25px;
+}
+
+.barra-de-squad{
+    background-color: rgb(90, 90, 90);
+    padding: 30px;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    left: 1180px;
+}
+
+.barra-valores{
+    background-color: rgb(90, 90, 90);
+    padding: 30px;
+    width: 70px;
+    position: absolute;
+    top: 0px;
+    left: 1680px;
+}
+
+.barra-valores p{
+    position: absolute;
+    top: 1px;
+    color: rgba(255, 255, 0, 0.747);
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+}
+
+.barra-valores spam{
+    position: absolute;
+    top: 25px;
+    color: rgba(190, 190, 190, 0.747);
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+}
+
+.barra-da-engrenagem{
+    background-color: rgb(90, 90, 90);
+    padding: 30px;
+    width: 20px;
+    position: absolute;
+    top: 0px;
+    left: 1823px;
+}
+
+.barra-de-login{
+    background-color: rgb(192, 191, 191);
+    height: 42px;
+    width: 40px;
+    position: absolute;
+    top: 8px;
+    left: 1435px;
+
+}
+
+.barra-de-squad-slot1{
+    background-color: rgb(192, 191, 191);
+    height: 42px;
+    width: 40px;
+    position: absolute;
+    top: 8px;
+    left: 1200px;
+}
+
+.barra-de-squad-slot1 spam{
+    position: absolute;
+    top: 3px;
+    left: 12px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 25px;
+
+}
+
+.barra-de-squad-slot2{
+    background-color: rgb(192, 191, 191);
+    height: 42px;
+    width: 40px;
+    position: absolute;
+    top: 8px;
+    left: 1250px;
+}
+
+
+.barra-de-squad-slot2 spam{
+    position: absolute;
+    top: 3px;
+    left: 12px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 25px;
+
+}
+
+.barra-de-squad-slot3{
+    background-color: rgb(192, 191, 191);
+    height: 42px;
+    width: 40px;
+    position: absolute;
+    top: 8px;
+    left: 1300px;
+}
+
+.barra-de-squad-slot3 spam{
+    position: absolute;
+    top: 3px;
+    left: 12px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 25px;
+
+}
+
+.barra-de-squad-slot4{
+    background-color: rgb(192, 191, 191);
+    height: 42px;
+    width: 40px;
+    position: absolute;
+    top: 8px;
+    left: 1350px;
+}
+
+.barra-de-squad-slot4 spam{
+    position: absolute;
+    top: 3px;
+    left: 12px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 25px;
+
+}
+
+.barra-travessao{
+    background-color: rgb(192, 191, 191);
+    height: 42px;
+    width: 2px;
+    position: absolute;
+    top: 8px;
+    left: 1413px;
+    
+}
+
+
+.imagem-de-fundo{
+    max-width: 100%;
+}
+
+.icone-engrenagem{
+    filter: invert(1);
+    position: absolute;
+    top: 5px;
+    left: 1841px;
+    width: 50px;
+    height: 50px;
+    transition: 0.1s ease-in-out;
+}
+
+.icone-engrenagem:hover{
+    scale: 1.05;
+}
+
+
+.icone-elo{
+    position: absolute;
+    top: 10px;
+    left: 1480px;
+    width: 40px;
+    height: 40px;
+}
+
+.icone-floral{
+    filter: invert(1);
+    position: absolute;
+    top: -5px;
+    left: 1560px;
+    width: 100px;
+    height: 100px;
+}
+
+.icone-login{
+    filter: invert(1);
+    position: absolute;
+    top: 18px;
+    left: 1433px;
+    width: 45px;
+    height: 30px;
+
+}
+
+.textos-superiores{
+    font-family: 'Archivo Narrow', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.inicio{
+position: absolute;
+top: 20px;
+left: 195px;
+}
+
+.agentes{
+    position: absolute;
+    top: 20px;
+    left: 330px;
+}
+
+.assistir{
+    position: absolute;
+    top: 20px;
+    left: 490px;
+
+}
+
+.passe-de-batalha{
+    position: absolute;
+    top: 20px;
+    left: 640px;
+}
+
+.loja{
+    position: absolute;
+    top: 20px;
+    left: 900px;
+}
+
+.textos-superiores p a:visited, a:active {text-decoration: none;}
+
+.textos-superiores p:hover {text-decoration: underline rgb(2, 125, 240) 5px; color:white; font-size:28px; }
+
+.area-de-jogo{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 15px;
+    background-color: rgb(219, 219, 219);
+    height: 115px;
+    width: 310px;
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    transition: 0.3s ease-in-out;
+}
+
+.area-de-jogo:hover{
+    transform: scale(1.06);
+    background-color: rgb(2, 125, 240);
+}
+
+
+.jogar-novamente{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 15px;
+    background-color: rgb(219, 219, 219);
+    height: 115px;
+    width: 315px;
+    position: absolute;
+    top: 150px;
+    left: 422px;
+    transition: 0.3s ease-in-out;
+}
+
+.jogar-novamente:hover{
+    transform: scale(1.06);
+    background-color: rgb(2, 125, 240);
+}
+
+
+.jogar-novamente spam{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.mapa-do-passe{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 15px;
+    background-color: rgb(219, 219, 219);
+    height: 235px;
+    width: 665px;
+    position: absolute;
+    top: 290px;
+    left: 70px;
+    background-image: url(./imagens/passe.jpg);
+    background-position: center;
+    background-position-y: 0px;
+    transition: 0.3s ease-in-out;
+}
+
+.mapa-do-passe spam{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.mapa-do-passe p{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 500px;
+    top: 170px;
+}
+
+.mapa-do-passe:hover{
+    transform: scale(1.03);
+}
+
+.tempo-do-passe{
+    position: absolute;
+    top: 40px;
+    width: 150px;
+    left: 0px;
+}
+
+.tempo-do-passe spam{
+    background-color: rgb(219, 223, 5);
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 15px;
+}
+
+.progresso-do-passe{
+    position: absolute;
+    top: 170px;
+    left: 0px;
+}
+
+.progresso-do-passe spam{
+    background-color: rgb(219, 223, 5);
+    font-family: 'Archivo Narrow', sans-serif;
+    left: 450px;
+    font-size: 15px;
+    width: 200px;
+}
+
+.packs{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 25px;
+    padding-left: 75px;
+    padding-top: 30px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    background-color: rgb(219, 219, 219);
+    height: 70px;
+    width: 265px;
+    position: absolute;
+    top: 550px;
+    left: 70px;
+    transition: 0.3s ease-in-out;
+}
+
+.packs:hover{
+    transform: scale(1.05);
+    background-color: rgb(2, 125, 240);
+}
+
+
+
+.reforco{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 25px;
+    padding-left: 75px;
+    padding-top: 30px;
+    background-color: rgb(219, 219, 219);
+    height: 70px;
+    width: 265px;
+    position: absolute;
+    top: 550px;
+    left: 422px;
+    transition: 0.3s ease-in-out;
+}
+
+.reforco:hover{
+    transform: scale(1.05);
+    background-color: rgb(2, 125, 240);
+}
+
+.reputacao{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 25px;
+    padding-left: 75px;
+    padding-top: 30px;
+    background-color: rgb(219, 219, 219);
+    height: 70px;
+    width: 265px;
+    position: absolute;
+    top: 660px;
+    left: 70px;
+    transition: 0.3s ease-in-out;
+}
+
+.reputacao:hover{
+    transform: scale(1.05);
+    background-color: rgb(2, 125, 240);
+}
+
+
+.ubi-connect{
+    font-family: 'Archivo Narrow', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-left: 140px;
+    padding-top: 30px;
+    padding-bottom: 2px;
+    background-color: rgb(219, 219, 219);
+    height: 70px;
+    width: 200px;
+    position: absolute;
+    top: 660px;
+    left: 422px;
+    background-image: url(./imagens/ubi.png);
+    transition: 0.3s ease-in-out;
+}
+
+.ubi-connect p{
+    font-family: 'Archivo Narrow', sans-serif;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    left: 110px;
+
+}
+
+.ubi-connect:hover{
+    transform: scale(1.05);
+}
+
+.slides{
+    background-color: rgb(211, 211, 211);
+    height: 330px;
+    width: 690px;
+    position: absolute;
+    top: 772px;
+    left: 70px;
+    background-image: url(./imagens/ela.jpg);
+    background-position-x: 25px;
+    background-repeat: no-repeat;
+    transition: 0.3s ease-in-out;
+}
+
+.slides:hover{
+    transform: scale(1.03);
+}
+
+.destaque{
+    height: 950px;
+    width: 400px;
+    position: absolute;
+    top: 150px;
+    left: 775px;
+    background-image: url(./imagens/sledge\ de\ pé.jpeg);
+    background-position: center bottom;
+    background-position-y: 1450px;
+    transition: 0.3s ease-in-out;
+}
+
+.destaque:hover{
+    transform: scale(1.03);
+       ;
+}
+
